@@ -1,0 +1,47 @@
+
+#header{
+    text-align: center;
+}
+h1,h2{
+    margin: 5%;
+    text-align: center;
+}
+#imgbar{
+    width: 100%;
+    height: 40%;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+.principal{
+    padding: 20px;
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+#ital{
+    font-size: 20px;
+}
+#salteado{
+    color: blue;
+}
+.Diferenciales{
+    border-radius: 50px;
+    padding: 30px;
+
+}
+.items{
+    font-style: italic;
+    font-size: 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+#imgdif{
+    width: 60%;
+    border-radius: 2%;
+    margin-left: 10px;
+}
