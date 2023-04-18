@@ -43,5 +43,15 @@
             </li>
         </ul>
     </main>
+    <footer>
+        <img src="imagenes/logo-blanco.png" alt="">
+        <p class="copyright"> © Copyright Barbería Alura - <span id="fecha"></span></p>
+    </footer>
+    <script>
+        var fecha = new Date()
+        var años = fecha.getFullYear()
+
+        document.getElementById("fecha").innerHTML=años
+    </script>
 </body>
 </html>
