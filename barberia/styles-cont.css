@@ -1,0 +1,90 @@
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline ;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 20px 0;
+    display: inline-block;
+}
+form label, form legend{
+ display: block;
+ font-size: 20px;
+ margin: 0 0 10px;
+}
+.input-padron, form textarea{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.1);
+}
+table{
+    margin: 20px 40px;
+}
+thead{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+footer{
+    text-align: center;
+    background-image: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copyright{
+    font-size: 13px;
+    color: white;
+    margin: 20px;
+}
