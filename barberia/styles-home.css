@@ -1,12 +1,15 @@
+body{
 
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background-color: #BBBBBB;
     padding: 20px 0;
 }
 .caja{
-    width: 940px;
+    width: 100%;
     position: relative;
-    margin: 0 auto;
+    margin: 0 100px;
 }
 nav{
     position: absolute;
@@ -40,8 +43,8 @@ nav a:hover{
     border: 1px solid black;
 }
 .principal{
-    padding: 20px;
-    background-color: #CCCCCC;
+    padding: 20px 50px;
+    background-color: #FEFEFE;
     border-radius: 10px;
 }
 p{
@@ -54,23 +57,19 @@ p{
     color: blue;
 }
 .Diferenciales{
-    border-radius: 50px;
-    padding: 30px;
+    background-color: #888888;
+    width: 100%;
 
 }
 .items{
-    font-style: italic;
     font-size: 20px;
 }
 #lista{
     display: inline-block;
     vertical-align: top;
-    width: 30%;
 }
 #imgdif{
-    width: 60%;
     border-radius: 2%;
-    margin-left: 10px;
 }
 footer{
     text-align: center;
@@ -81,4 +80,66 @@ footer{
     font-size: 13px;
     color: white;
     margin: 20px;
+}
+
+/* ultimos cambios de pagina */
+.banner{
+    width: 100%;
+}
+#h1tx{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.utensilios{
+    width: 135px;
+    float: left;
+    margin: 0 20px;
+}
+.principal p{
+    margin: 0 0 1em;
+    text-align: justify;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+main p{
+    text-align: justify;
+    padding: 0 80px;
+}
+.mapa{
+    padding: 3em 0;
+    text-align: center;
+    background:linear-gradient(#FEFEFE, #888888);
+
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+.cont-difer{
+    width: 80%;
+    margin: 0 auto;
+}
+#lista{
+    width: 30%;
+}
+.items{
+    line-height: 1.5;
+}
+.items:first-child{
+    font-weight: bold;
+}
+
+#imgdif{
+    width: 60%;
+}
+.video{
+    padding:3em;
+    margin: 0 0 2em;
+    text-align: center;
 }
