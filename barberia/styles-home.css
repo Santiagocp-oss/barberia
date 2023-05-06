@@ -9,7 +9,6 @@ header{
 .caja{
     width: 100%;
     position: relative;
-    margin: 0 100px;
 }
 nav{
     position: absolute;
@@ -36,6 +35,9 @@ nav a:hover{
     margin: 5%;
     text-align: center;
 }
+/* #h1tx:first-letter{
+    font-weight: bold;
+} */
 #imgbar{
     width: 99.8%;
     height: 40%;
@@ -46,6 +48,7 @@ nav a:hover{
     padding: 20px 50px;
     background-color: #FEFEFE;
     border-radius: 10px;
+
 }
 p{
     text-align: center;
@@ -131,6 +134,9 @@ main p{
 .items{
     line-height: 1.5;
 }
+.items:before{
+    content: "⭑";
+}
 .items:first-child{
     font-weight: bold;
 }
@@ -140,6 +146,5 @@ main p{
 }
 .video{
     padding:3em;
-    margin: 0 0 2em;
     text-align: center;
 }
