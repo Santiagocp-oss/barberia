@@ -7,9 +7,8 @@ header{
     padding: 20px 0;
 }
 .caja{
-    width: 940px;
+    width: 100%;
     position: relative;
-    margin: 0 auto;
 }
 nav{
     position: absolute;
@@ -34,37 +33,32 @@ nav a:hover{
     text-decoration: underline ;
 }
 .productos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+    width: 100%;
+    margin: auto;
 }
 .productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    padding: 5px 0 5px 0;
+    margin: 20px 1.5%;
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 10px 10px 30px  #000;
 
 }
-.productos li:hover{
-    border-color: #c78c19;
+.imgl{
+    width: 70%;
 }
-.productos li:active{
+.productos li:hover{
     border-color: #088c19;
 }
+
 .productos h2{
     font-size: 30px;
     font-weight: bold;
-}
-.productos li:hover h2{
-    font-size: 33px;
-}
-.Prod_descri{
-    font-size: 18px;
 }
 .prod_valor{
     font-weight: 20px;
@@ -80,4 +74,27 @@ footer{
     font-size: 13px;
     color: white;
     margin: 20px;
+}
+@media screen and (max-width:900px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .caja{
+        width: auto;
+    }
+    .productos li{
+    text-align: center;
+    width: 90%;
+    vertical-align: top;
+    padding: 5px 5px 5px 0;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px  #000;
+    }
 }

@@ -70,9 +70,11 @@ p{
 #lista{
     display: inline-block;
     vertical-align: top;
+    
 }
 #imgdif{
     border-radius: 2%;
+
 }
 footer{
     text-align: center;
@@ -94,6 +96,8 @@ footer{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    color: rgb(0,0,0);
+    text-shadow: 1px 1px  #000;
 }
 .utensilios{
     width: 135px;
@@ -112,7 +116,6 @@ footer{
 }
 main p{
     text-align: justify;
-    padding: 0 80px;
 }
 .mapa{
     padding: 3em 0;
@@ -126,7 +129,7 @@ main p{
 }
 .cont-difer{
     width: 80%;
-    margin: 0 auto;
+    margin: auto;
 }
 #lista{
     width: 30%;
@@ -143,8 +146,33 @@ main p{
 
 #imgdif{
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000;
+    
+}
+#imgdif:hover{
+    opacity: 0.3;
+    box-shadow: 10px 10px 30px 15px #000;
 }
 .video{
     padding:3em;
     text-align: center;
+}
+
+/* ultimos cambios */
+
+@media screen and (max-width:900px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        text-align: center;
+    }
+    .caja, .principal, .video{
+        width: auto;
+    }
+    #lista, #imgdif{
+        width: 100%;
+    }
 }
